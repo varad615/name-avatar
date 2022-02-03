@@ -7,6 +7,14 @@
   "orientation": "portrait",
   "scope": "/",
   "start_url": "/",
+  "shortcuts": [
+    {
+      "name": "New Tab",
+      "short_name": "New Tab",
+      "description": "Open a new tab",
+      "url": "/"
+    }
+  ],
   "icons": [
     {
       "src": "icons/icon-72x72.png",
