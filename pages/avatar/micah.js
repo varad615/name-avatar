@@ -2,9 +2,9 @@ import { useState } from "react";
 import { IoIosArrowBack } from "react-icons/io";
 import Link from "next/link";
 
-export default function Adventure() {
+export default function Micah() {
   const [title, setTitle] = useState("");
-  console.log(`https://avatars.dicebear.com/api/adventurer/${title}.svg`);
+  console.log(`https://avatars.dicebear.com/api/micah/${title}.svg`);
   const style = { color: "black", fontSize: "1.5em" };
   return (
     <div className="p-5">
@@ -14,13 +14,13 @@ export default function Adventure() {
             <IoIosArrowBack className="mb-3 cursor-pointer" style={style} />
           </Link>
           <div className=" select-none font-bold sm:text-3xl sm:text-center text-left text-2xl title-font mb-4 text-black">
-            Adventure
+            Micah
           </div>
         </div>
         <div>
           <div className="lg:w-4/5 mx-auto flex item-center justify-center">
             <img
-              src={`https://avatars.dicebear.com/api/adventurer/${title}.svg`}
+              src={`https://avatars.dicebear.com/api/micah/${title}.svg`}
               className="sm:w-1/4 w-6/12 lg:h-auto object-cover object-center rounded"
             />
           </div>
