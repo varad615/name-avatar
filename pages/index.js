@@ -1,8 +1,14 @@
+import Head from "next/head";
 import Link from "next/link";
 
 export default function Home() {
   return (
     <div className="p-5">
+      <Head>
+        <title>Name Avatar</title>
+        <link rel="icon" href="/favicon.ico" />
+        <meta name="description" content="Create a aavatar for your name" />
+      </Head>
       <div className="text-center">
         <div className="sm:text-3xl sm:text-center text-left text-2xl title-font mb-4 text-black">
           <div className="font-bold">Name Avatar</div>

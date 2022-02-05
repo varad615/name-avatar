@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { IoIosArrowBack } from "react-icons/io";
 import Link from "next/link";
+import Head from "next/head";
 
 export default function Bottts() {
   const [title, setTitle] = useState("");
@@ -8,6 +9,14 @@ export default function Bottts() {
   const style = { color: "black", fontSize: "1.5em" };
   return (
     <div className="p-5">
+      <Head>
+        <title>Bottts Avatar</title>
+        <link
+          rel="icon"
+          href={`https://avatars.dicebear.com/api/bottts/${title}.svg`}
+        />
+        <meta name="description" content="Create a aavatar for your name" />
+      </Head>
       <div>
         <div>
           <Link href="/application">
