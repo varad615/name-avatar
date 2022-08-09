@@ -1,7 +1,7 @@
 # Name Avatar
 
 Most of the time on a platform when you create a account u are asked for a profile picture and we waste most of our time finding a profile picture.
-This project just solve this by setting up a profile picture bu using an api.
+This project just solve this by setting up a profile picture by using an api.
 
 ## API used
 
